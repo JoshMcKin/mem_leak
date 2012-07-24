@@ -1,0 +1,52 @@
+2012-07-24 07:26:42 -0500 INFO: jruby 1.7.0.preview2.dev (ruby-1.9.3-p203) (2012-07-16 412049f) (Java HotSpot(TM) 64-Bit Server VM 1.7.0_04) [darwin-x86_64-java]
+2012-07-24 07:26:42 -0500 INFO: using a shared (threadsafe!) runtime
+2012-07-24 07:27:57 -0500 INFO: 
+
+Started GET "/sessions/login" for 0:0:0:0:0:0:0:1 at 2012-07-24 07:27:57 -0500
+2012-07-24 07:27:57 -0500 INFO: 
+ActionController::RoutingError (No route matches [GET] "/sessions/login"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  file:jruby-rack (1.1.8.dev) lib/jruby-rack-1.1.8.dev-SNAPSHOT.jar!/rack/handler/servlet.rb:21:in `call'
+
+
+2012-07-24 07:27:58 -0500 INFO: 
+
+Started GET "/sessions/login" for 0:0:0:0:0:0:0:1 at 2012-07-24 07:27:58 -0500
+2012-07-24 07:27:58 -0500 INFO: 
+ActionController::RoutingError (No route matches [GET] "/sessions/login"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  file:jruby-rack (1.1.8.dev) lib/jruby-rack-1.1.8.dev-SNAPSHOT.jar!/rack/handler/servlet.rb:21:in `call'
+
+
+2012-07-24 07:28:03 -0500 INFO: 
+
+Started GET "/" for 0:0:0:0:0:0:0:1 at 2012-07-24 07:28:03 -0500
+2012-07-24 07:28:03 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-24 07:28:03 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (11.0ms)
+2012-07-24 07:28:03 -0500 INFO: Completed 200 OK in 52ms (Views: 47.0ms)

@@ -92,7 +92,7 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
-    trinidad (1.4.0.RC)
+    trinidad (1.4.0)
       jruby-rack (>= 1.1.7)
       trinidad_jars (>= 1.0.5)
     trinidad_jars (1.0.5)
@@ -107,4 +107,4 @@ DEPENDENCIES
   jruby-openssl
   rails (= 3.2.6)
   ruby-debug
-  trinidad (= 1.4.0.RC)
+  trinidad (~> 1.4.0)

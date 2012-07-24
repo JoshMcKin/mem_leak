@@ -6,7 +6,7 @@ gem 'rails', '3.2.6'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'jruby-openssl'    
-gem 'trinidad', '1.4.0.RC'
+gem 'trinidad', '~> 1.4.0'
 gem 'dalli'
 
 group :development, :test do 
