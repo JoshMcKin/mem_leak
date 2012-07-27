@@ -1,9 +1,0 @@
-2012-07-23 12:51:44 INFO: No global web.xml found
-2012-07-23 12:51:45 INFO: INFO: jruby 1.7.0.preview2.dev (ruby-1.9.3-p203) (2012-07-16 412049f) (Java HotSpot(TM) 64-Bit Server VM 1.7.0_04) [darwin-x86_64-java]
-2012-07-23 12:51:45 INFO: INFO: using a shared (threadsafe!) runtime
-2012-07-23 12:52:02 INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [148] milliseconds.
-2012-07-23 12:52:02 INFO: Starting ProtocolHandler ["http-bio-3000"]
-2012-07-23 12:52:42 INFO: Pausing ProtocolHandler ["http-bio-3000"]
-2012-07-23 12:52:42 INFO: Stopping service Tomcat
-2012-07-23 12:52:42 INFO: Stopping ProtocolHandler ["http-bio-3000"]
-2012-07-23 12:52:42 INFO: Destroying ProtocolHandler ["http-bio-3000"]

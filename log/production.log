@@ -1,52 +1,111 @@
-2012-07-24 07:26:42 -0500 INFO: jruby 1.7.0.preview2.dev (ruby-1.9.3-p203) (2012-07-16 412049f) (Java HotSpot(TM) 64-Bit Server VM 1.7.0_04) [darwin-x86_64-java]
-2012-07-24 07:26:42 -0500 INFO: using a shared (threadsafe!) runtime
-2012-07-24 07:27:57 -0500 INFO: 
+2012-07-27 07:21:53 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:21:53 -0500 INFO: using a shared (threadsafe!) runtime
+2012-07-27 07:22:09 -0500 INFO: localhost:11211 failed (count: 0)
+2012-07-27 07:22:09 -0500 INFO: DalliError: No server available
+2012-07-27 07:22:09 -0500 INFO: 
 
-Started GET "/sessions/login" for 0:0:0:0:0:0:0:1 at 2012-07-24 07:27:57 -0500
-2012-07-24 07:27:57 -0500 INFO: 
-ActionController::RoutingError (No route matches [GET] "/sessions/login"):
-  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
-  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.6) lib/rails/engine.rb:479:in `call'
-  railties (3.2.6) lib/rails/application.rb:220:in `call'
-  file:jruby-rack (1.1.8.dev) lib/jruby-rack-1.1.8.dev-SNAPSHOT.jar!/rack/handler/servlet.rb:21:in `call'
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:22:09 -0500 2012
+2012-07-27 07:22:10 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:22:10 -0500 INFO: localhost:11211 failed (count: 1)
+2012-07-27 07:22:10 -0500 INFO: localhost:11211 is down
+2012-07-27 07:22:10 -0500 INFO: DalliError: No server available
+2012-07-27 07:22:10 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (9.0ms)
+2012-07-27 07:22:10 -0500 INFO: Completed 200 OK in 223ms (Views: 198.0ms)
+2012-07-27 07:22:31 -0500 INFO: localhost:11211 is back (downtime was 21.005 seconds)
+2012-07-27 07:22:31 -0500 INFO: 
 
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:22:31 -0500 2012
+2012-07-27 07:22:31 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:22:31 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (1.0ms)
+2012-07-27 07:22:31 -0500 INFO: Completed 200 OK in 17ms (Views: 10.0ms)
+2012-07-27 07:22:54 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:22:54 -0500 INFO: using a shared (threadsafe!) runtime
+2012-07-27 07:23:13 -0500 INFO: 
 
-2012-07-24 07:27:58 -0500 INFO: 
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:13 -0500 2012
+2012-07-27 07:23:13 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:13 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (42.0ms)
+2012-07-27 07:23:13 -0500 INFO: Completed 200 OK in 101ms (Views: 89.0ms)
+2012-07-27 07:23:21 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:23:21 -0500 INFO: using a shared (threadsafe!) runtime
+2012-07-27 07:23:42 -0500 INFO: 
 
-Started GET "/sessions/login" for 0:0:0:0:0:0:0:1 at 2012-07-24 07:27:58 -0500
-2012-07-24 07:27:58 -0500 INFO: 
-ActionController::RoutingError (No route matches [GET] "/sessions/login"):
-  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
-  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
-  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
-  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
-  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
-  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
-  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
-  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
-  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
-  railties (3.2.6) lib/rails/engine.rb:479:in `call'
-  railties (3.2.6) lib/rails/application.rb:220:in `call'
-  file:jruby-rack (1.1.8.dev) lib/jruby-rack-1.1.8.dev-SNAPSHOT.jar!/rack/handler/servlet.rb:21:in `call'
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:42 -0500 2012
+2012-07-27 07:23:42 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:42 -0500 INFO: 
 
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:42 -0500 2012
+2012-07-27 07:23:42 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:42 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (5.0ms)
+2012-07-27 07:23:42 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (22.0ms)
+2012-07-27 07:23:42 -0500 INFO: Completed 200 OK in 176ms (Views: 128.0ms)
+2012-07-27 07:23:42 -0500 INFO: Completed 200 OK in 105ms (Views: 71.0ms)
+2012-07-27 07:23:42 -0500 INFO: 
 
-2012-07-24 07:28:03 -0500 INFO: 
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:42 -0500 2012
+2012-07-27 07:23:42 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:42 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (0.0ms)
+2012-07-27 07:23:42 -0500 INFO: Completed 200 OK in 19ms (Views: 13.0ms)
+2012-07-27 07:23:42 -0500 INFO: 
 
-Started GET "/" for 0:0:0:0:0:0:0:1 at 2012-07-24 07:28:03 -0500
-2012-07-24 07:28:03 -0500 INFO: Processing by FoosController#index as HTML
-2012-07-24 07:28:03 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (11.0ms)
-2012-07-24 07:28:03 -0500 INFO: Completed 200 OK in 52ms (Views: 47.0ms)
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:42 -0500 2012
+2012-07-27 07:23:42 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:42 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (1.0ms)
+2012-07-27 07:23:42 -0500 INFO: Completed 200 OK in 17ms (Views: 9.0ms)
+2012-07-27 07:23:42 -0500 INFO: 
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:42 -0500 2012
+2012-07-27 07:23:42 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:42 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (1.0ms)
+2012-07-27 07:23:43 -0500 INFO: Completed 200 OK in 18ms (Views: 14.0ms)
+2012-07-27 07:23:43 -0500 INFO: 
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:43 -0500 2012
+2012-07-27 07:23:43 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:43 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (0.0ms)
+2012-07-27 07:23:43 -0500 INFO: Completed 200 OK in 7ms (Views: 4.0ms)
+2012-07-27 07:23:43 -0500 INFO: 
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:43 -0500 2012
+2012-07-27 07:23:43 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:43 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (1.0ms)
+2012-07-27 07:23:43 -0500 INFO: Completed 200 OK in 10ms (Views: 3.0ms)
+2012-07-27 07:23:43 -0500 INFO: 
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:43 -0500 2012
+2012-07-27 07:23:43 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:43 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (0.0ms)
+2012-07-27 07:23:43 -0500 INFO: Completed 200 OK in 14ms (Views: 12.0ms)
+2012-07-27 07:23:43 -0500 INFO: 
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:23:43 -0500 2012
+2012-07-27 07:23:43 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:23:43 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (0.0ms)
+2012-07-27 07:23:43 -0500 INFO: Completed 200 OK in 39ms (Views: 21.0ms)
+2012-07-27 07:23:57 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:23:57 -0500 INFO: using a shared (threadsafe!) runtime
+2012-07-27 07:24:24 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:24:24 -0500 INFO: using a shared (threadsafe!) runtime
+2012-07-27 07:25:29 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:25:29 -0500 INFO: using a shared (threadsafe!) runtime
+2012-07-27 07:28:09 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:28:09 -0500 INFO: using 1:5 runtime pool with timeout of 30 seconds
+2012-07-27 07:28:22 -0500 INFO: add application to the pool. size now = 1
+2012-07-27 07:28:43 -0500 INFO: 
+
+Started GET "/" for 0:0:0:0:0:0:0:1%0 at Fri Jul 27 07:28:43 -0500 2012
+2012-07-27 07:28:43 -0500 INFO: Processing by FoosController#index as HTML
+2012-07-27 07:28:43 -0500 INFO:   Rendered foos/index.html.erb within layouts/application (13.0ms)
+2012-07-27 07:28:43 -0500 INFO: Completed 200 OK in 120ms (Views: 107.0ms)
+2012-07-27 07:29:02 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:29:02 -0500 INFO: using 1:5 runtime pool with timeout of 30 seconds
+2012-07-27 07:29:09 -0500 INFO: add application to the pool. size now = 1
+2012-07-27 07:29:20 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:29:20 -0500 INFO: using 1:5 runtime pool with timeout of 30 seconds
+2012-07-27 07:29:25 -0500 INFO: add application to the pool. size now = 1
+2012-07-27 07:29:36 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:29:36 -0500 INFO: using 1:5 runtime pool with timeout of 30 seconds
+2012-07-27 07:29:42 -0500 INFO: add application to the pool. size now = 1
+2012-07-27 07:32:03 -0500 INFO: jruby 1.6.7.2 (ruby-1.8.7-p357) (2012-05-01 26e08ba) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_33) [darwin-x86_64-java]
+2012-07-27 07:32:03 -0500 INFO: using 1:5 runtime pool with timeout of 30 seconds
+2012-07-27 07:32:10 -0500 INFO: add application to the pool. size now = 1
